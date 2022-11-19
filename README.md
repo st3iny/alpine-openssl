@@ -1,26 +1,15 @@
-### docker-openssl-alpine
+# alpine-openssl
 
-A useful simple openssl container running in alpine Linux
+A useful simple openssl container running in alpine Linux.
 
-[![DockerHub Badge](http://dockeri.co/image/alpine/openssl)](https://hub.docker.com/r/alpine/openssl/)
+## Github Repo
 
-### Github Repo
+https://github.com/st3iny/alpine-openssl
 
-https://github.com/alpine-docker/openssl
+## Container Image Tag
 
-### travis CI build logs
+`ghcr.io/st3iny/alpine-openssl:latest`
 
-https://travis-ci.org/alpine-docker/openssl
+## Usage
 
-### Docker image tags
-
-https://hub.docker.com/r/alpine/openssl/tags/
-
-### usage
-
-    docker run -ti --rm -v $(pwd):/apps -w /apps alpine/openssl <openssl_command>
-
-### Optional usage 1:
-
-    alias openssl="docker run -ti --rm -v $(pwd):/apps -w /apps alpine/openssl"
-    
+`docker run --rm -ti ghcr.io/st3iny/alpine-openssl:latest <openssl-command>`
