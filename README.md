@@ -12,4 +12,6 @@ https://github.com/st3iny/alpine-openssl
 
 ## Usage
 
-`docker run --rm -ti ghcr.io/st3iny/alpine-openssl:latest <openssl-command>`
+```sh
+docker run --rm -ti ghcr.io/st3iny/alpine-openssl:latest <openssl-command>
+```
